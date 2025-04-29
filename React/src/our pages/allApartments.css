@@ -1,0 +1,61 @@
+#cardDiv{
+    align-items: center;
+    justify-content: center;
+   justify-content:space-around;
+    display:grid;
+    width: 100%;
+     grid-template-columns:22%  22% 22% 22%   ; 
+    background-position: 50% 50%;
+    gap: 15vh;
+    column-gap:1vh;
+   background-color:rgb(195, 248, 243);
+   margin-top: 110px;
+    }
+    .off{
+color: red;
+    }
+    .on{
+        color: green;
+    }
+    .but{
+        color: black;
+        background-color:rgb(79, 209, 249);
+    }
+    #ccard{
+        height: auto;
+    }
+    button {
+        background-color: #89cff0; /* צבע תכלת */
+        color: white; /* צבע טקסט */
+        border: none; /* ללא מסגרת */
+        border-radius: 5px; /* פינות מעוגלות */
+        width: 2.5cm; /* רוחב */
+        height: 1cm; /* אורך */
+        font-size: 16px; /* גודל טקסט */
+        font-weight: bold; /* טקסט מודגש */
+        cursor: pointer; /* הופכת את הסמן ליד */
+        transition: background-color 0.3s ease, transform 0.2s ease; /* אנימציות מעבר */
+        display: flex; /* מרכז את הטקסט */
+        align-items: center; /* ממרכז אנכית */
+        justify-content: center; /* ממרכז אופקית */
+        text-align: center; /* מיושר טקסט */
+      }
+      
+      button:hover {
+        background-color: #5eb9f7; /* גוון תכלת כהה יותר */
+        transform: scale(1.05); /* הגדלה קלה */
+      }
+      
+      button:active {
+        background-color: #1e90ff; /* גוון כחול כהה יותר */
+        transform: scale(0.95); /* הקטנה קלה */
+      }
+      
+      button:focus {
+        outline: none; /* הסרת קווי מיקוד */
+        box-shadow: 0 0 5px #5eb9f7; /* הוספת צל מיקוד */
+      }
+      #but{
+        justify-content: center;
+        
+      }
